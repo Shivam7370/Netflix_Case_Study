@@ -1,5 +1,14 @@
 # NETFLIX Case Study
 
+## Table of Content
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Business Insights](#business-insights)
+- [Recommendations](#recommendations)
+
 ### Project Overview
 This data analysis project aims to provide insights that could help **NETFLIX** to grow its business in different countries. By analyzing various aspects of the **NETFLIX** data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
@@ -24,7 +33,7 @@ Include some interesting code/features worked with
 df["country"].replace(np.NaN, "Unknown", inplace=True)
 ```
 
-### Bussiness Insights
+### Business Insights
 1. Netflix presents more movies than TV shows. Most movies last for 90-120 minutes. Most TV series are new with only 1 or 2 seasons. There has been an increase since 2015 in both TV shows and movies. The number of movies was greater than TV shows before the decrease. Netflix content experienced a sharp decrease in 2019, and the number of TV shows exceeded movies for the first time.
 2. Anupam Kher, Rupa Bhimani, Takahiro Sakurai, Julie Tejwani, and Om Puri are popular casts and Rajiv Chilaka, Jan Suter, Raúl Campos, Suhas Kadav, and Marcus Raboy are popular directors.
 3. The United States, India, and the United Kingdom are the top countries for movies and TV shows.
